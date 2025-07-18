@@ -22,7 +22,7 @@ The project is built using **Python** and **Selenium WebDriver**, enabling autom
 
 ## Project Structure
 
-```plaintext
+```
 ipo-alert/
 ├── data/                # Contains applicant CSV files  
 ├── screenshots/         # Automatically saved screenshots during runs  
@@ -35,16 +35,18 @@ ipo-alert/
 ├── requirements.txt     # Python dependencies  
 ├── .gitignore           # Ignore files/folders like screenshots, __pycache__  
 └── README.md            # This documentation file  
+```
 
 ---
 
-## How to run
+## How to Run
 
 ### 1. Clone the repo
 
 ```bash
 git clone https://github.com/yourusername/ipo-alert.git
 cd ipo-alert
+```
 
 ### 02. Create and activate a virtual environment
 
@@ -53,10 +55,13 @@ cd ipo-alert
 venv\Scripts\activate
 # On macOS/Linux
 source venv/bin/activate
+```
 
 ### 03.  Install dependencies
 
-```pip install -r requirements.txt
+```
+pip install -r requirements.txt
+```
 
 ### 04.  Prepare applicant data
 
@@ -66,4 +71,6 @@ Note: This file is gitignored, so it won’t be uploaded accidentally.
 
 ### 05.  Run the automation
 
-```python src/main.py```
+```
+python src/main.py
+```
